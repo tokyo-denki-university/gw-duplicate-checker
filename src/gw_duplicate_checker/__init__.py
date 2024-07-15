@@ -1,2 +1,2 @@
-def hello():
-    return "Hello from gw-duplicate-checker!"
+def main():
+    print("Hello, world!")

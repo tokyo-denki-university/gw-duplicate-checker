@@ -1,20 +1,17 @@
 [project]
 name = "gw-duplicate-checker"
 version = "0.1.0"
-description = "Add your description here"
+description = "network gateway duplicate checker"
 authors = [
-    { name = "Izuho Fujiwara", email = "fujishan2212@gmail.com" }
+    { name = "Izuho Fujiwara", email = "21aj119@ms.dendai.ac.jp" },
+    { name = "Makoto Nakatsuhara", email = "21aj097@ms.dendai.ac.jp"}
 ]
 dependencies = []
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.12"
 
 [project.scripts]
-hello = "gw_duplicate_checker:hello"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+start = "gw_duplicate_checker:main"
 
 [tool.rye]
 managed = true
