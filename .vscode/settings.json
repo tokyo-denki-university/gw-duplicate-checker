@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/gw_duplicate_checker"
+    ]
+}
